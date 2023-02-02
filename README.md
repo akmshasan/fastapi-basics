@@ -1,4 +1,4 @@
-# fastapi-basics
+# FastAPI Starter
 This is a simple repository for basic FastAPI starter for continuous local development. 
 
 ## Pre-rquisites
