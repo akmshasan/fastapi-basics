@@ -1,0 +1,9 @@
+.git
+.coverage
+.pytest_cache
+venv
+api/_test
+*/__pycache__
+docker-compose.yaml
+makefile
+requirements-dev.txt
