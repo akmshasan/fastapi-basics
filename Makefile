@@ -1,4 +1,4 @@
-all: fmt test
+all: fmt test build
 
 fmt:
 	black .
@@ -8,3 +8,6 @@ fmt:
 test:
 	pytest .
 	coverage run -m pytest .
+
+build:
+	docker-compose up --build
